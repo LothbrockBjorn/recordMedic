@@ -11,7 +11,7 @@ if(mysqli_connect_errno()){
 }
 
 function base_url($url = null){
-	$base_url = "http://localhost/Aplikasirekammedis";
+	$base_url = "https://github.com/LothbrockBjorn/recordMedic";
 	if($url !=null){
 		return $base_url."/".$url;
 	}else{
