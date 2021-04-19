@@ -11,7 +11,7 @@ if(mysqli_connect_errno()){
 }
 
 function base_url($url = null){
-	$base_url = "https://github.com/LothbrockBjorn/recordMedic";
+	$base_url = "https://github.com/LothbrockBjorn/recordMedic.git/";
 	if($url !=null){
 		return $base_url."/".$url;
 	}else{
