@@ -11,7 +11,7 @@ if(mysqli_connect_errno()){
 }
 
 function base_url($url = null){
-	$base_url = "https://recordmedic.herokuapp.com";
+	$base_url = "https://recordmedic.herokuapp.com/recordMedic";
 	if($url !=null){
 		return $base_url."/".$url;
 	}else{
